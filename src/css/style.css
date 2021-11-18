@@ -200,7 +200,7 @@ li, a {
 }
 /* footer - end*/
 /* Pages */
-.products-details .product-interaction .shopping-buttons button, .products .products-wrapper .product-content .product-interaction .shopping-buttons button, .interesting-products .interesting-products-wrapper .new-arrivals .tab-content button {
+.products-details .product-interaction .shopping-buttons button, .products .products-wrapper .product-content .product-interaction .shopping-buttons button, .interesting-products .interesting-products-wrapper .new-arrivals .tab-content button, .interesting-products .interesting-products-wrapper .top-offers .top-offers-wrapper .card .card-body button {
   width: 100%;
   padding: 5px 25px;
   border-radius: 5px;
@@ -427,6 +427,16 @@ li, a {
 }
 .interesting-products .interesting-products-wrapper .top-offers .top-offers-wrapper .card .card-body {
   padding-block: 20px;
+}
+.interesting-products .interesting-products-wrapper .top-offers .top-offers-wrapper .card .card-body .buy {
+  border: none;
+  color: #fff;
+  background: #FB9B50;
+}
+.interesting-products .interesting-products-wrapper .top-offers .top-offers-wrapper .card .card-body .see-more {
+  background: none;
+  color: #2C599D;
+  border: 2px #2C599D solid;
 }
 .interesting-products .interesting-products-wrapper .top-offers .top-offers-wrapper .card .card-body h2 {
   padding-block: 20px;
@@ -674,7 +684,7 @@ li, a {
   }
 }
 /* Index - End */
-.products-details .product-interaction .shopping-buttons button, .products .products-wrapper .product-content .product-interaction .shopping-buttons button, .interesting-products .interesting-products-wrapper .new-arrivals .tab-content button {
+.products-details .product-interaction .shopping-buttons button, .products .products-wrapper .product-content .product-interaction .shopping-buttons button, .interesting-products .interesting-products-wrapper .top-offers .top-offers-wrapper .card .card-body button, .interesting-products .interesting-products-wrapper .new-arrivals .tab-content button {
   width: 100%;
   padding: 5px 25px;
   border-radius: 5px;
@@ -785,7 +795,7 @@ li, a {
   }
 }
 /* Product - End */
-.products-details .product-interaction .shopping-buttons button, .interesting-products .interesting-products-wrapper .new-arrivals .tab-content button, .products .products-wrapper .product-content .product-interaction .shopping-buttons button {
+.products-details .product-interaction .shopping-buttons button, .interesting-products .interesting-products-wrapper .top-offers .top-offers-wrapper .card .card-body button, .interesting-products .interesting-products-wrapper .new-arrivals .tab-content button, .products .products-wrapper .product-content .product-interaction .shopping-buttons button {
   width: 100%;
   padding: 5px 25px;
   border-radius: 5px;
