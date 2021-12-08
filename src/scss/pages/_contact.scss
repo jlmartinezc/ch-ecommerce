@@ -20,9 +20,9 @@ $colors: #adadad, #ccc;
             @include flex-container(column, space-around, unset);
 
             ul {
+                padding-left: 0 ;
 
                 li {
-
                     p {
                         display: inline-block;
                         margin-left: 10px;

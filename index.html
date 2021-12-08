@@ -77,20 +77,45 @@
     </header>
 
     <main class="page-main">
-        
         <section class="banner">
             <div class="banner-wrapper">
-                <div class="banner-info">
-                    <h1>Lorem</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque earum quibusdam asperiores officiis laboriosam sequi laborum, cum dolores doloremque eaque nihil ratione facilis excepturi beatae veniam distinctio voluptatem! In, nam!</p>
-                    <div class="banner-boton">
-                        <a href="./src/pages/product.html">
-                            <button>Ver más</button>
-                        </a>                            
+                <div id="bannerCarousel" class="carrousel carousel slide carousel-fade" data-bs-ride="carousel">
+  
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                </div>
-                <img src="./src/multimedia/images/products/banner.webp" alt="banner promocional">
-                <div class="banner-image">
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="banner-info">
+                                <h1>Consigue los mejores precios</h1>
+                                <p>¡La Tienda virtual más completa! Ecommerce es tu mejor opción para tus compras en línea. Contamos con las mejores marcas</p>
+                            </div>
+                            <div class="banner-image">
+                                <img src="./src/multimedia/images/products/banner.webp" alt="banner promocional">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner-info">
+                                <h2>Los mejor en ropa y calzado</h2>
+                                <p>¡La Tienda virtual más completa! Ecommerce es tu mejor opción para tus compras en línea. Contamos con las mejores marcas</p>
+                            </div>
+                            <div class="banner-image">
+                                <img src="./src/multimedia/images/products/product-11.webp" alt="banner promocional">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner-info">
+                                <h2>Los ultimo en electronicos</h2>
+                                <p>¡La Tienda virtual más completa! Ecommerce es tu mejor opción para tus compras en línea. Contamos con las mejores marcas</p>
+                            </div>
+                            <div class="banner-image">
+                                <img src="./src/multimedia/images/products/product-13.webp" alt="banner promocional">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -110,7 +135,7 @@
                         <i class="fa fa-truck"></i>
                         <div class="service-info">
                             <h3>ENTREGA GARANTIZADA</h3>
-                            <p>Transporte seguroy realizado por transportistas especializados.</p>
+                            <p>Transporte seguro y realizado por transportistas especializados.</p>
                         </div>
                     </div>
                     <div class="service">
@@ -134,9 +159,9 @@
                         <div class="promo">
                             <img src="./src/multimedia/images/promo1.webp" alt="promocion camaras fotograficas">
                             <div class="data-promo">
-                                <h2>Lorem</h2>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <a href="#">Ver ahora</a>
+                                <h2>50% de descuento</h2>
+                                <p>Cámaras digitales</p>
+                                <a href="./src/pages/product.html">Ver ahora</a>
                             </div> 
                         </div>
                     </div>
@@ -144,9 +169,9 @@
                         <div class="promo">
                             <img src="./src/multimedia/images/promo2.webp" alt="promocion audifonos">
                             <div class="data-promo">
-                                <h2>Lorem</h2>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <a href="#">Ver ahora</a>
+                                <h2>30% de descuento</h2>
+                                <p>Audifonos y equipos de sonido</p>
+                                <a href="./src/pages/product.html">Ver ahora</a>
                             </div>
                         </div>
                     </div>
@@ -154,9 +179,9 @@
                         <div class="promo">
                             <img src="./src/multimedia/images/promo3.webp" alt="promocion consolas de videojuegos">
                             <div class="data-promo">
-                                <h2>Lorem</h2>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <a href="#">Ver ahora</a>
+                                <h2>10% de descuento</h2>
+                                <p>Consolas y videojuegos</p>
+                                <a href="./src/pages/product.html">Ver ahora</a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +192,7 @@
 
         <section class="interesting-products">
             <div class="interesting-products-wrapper">
-                
+
                 <div class="top-offers">
                     <h2>Ofertas top</h2>
                     <div class="top-offers-wrapper">
@@ -176,8 +201,8 @@
                                 <img src="./src/multimedia/images/products/product-1.webp" alt="Oculus Rift">
                             </div>
                             <div class="card-body">
-                                <h2>Lorem</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h2>Oculus Rift</h2>
+                                <span class="price">$299 USD</span>
                                 <button type="button" class="btn btn-lg btn-block see-more">
                                     <i class="fa fa-eye"></i>
                                     ver más
@@ -193,8 +218,8 @@
                                 <img src="./src/multimedia/images/products/product-2.webp" alt="Consola nintendo switch">
                             </div>
                             <div class="card-body">
-                                <h2>Lorem</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <h2>Nintendo switch</h2>
+                                <span class="price">$284 USD</span>
                                 <button type="button" class="btn btn-lg btn-block see-more">
                                     <i class="fa fa-eye"></i>
                                     ver más
@@ -210,8 +235,8 @@
                                 <img src="./src/multimedia/images/products/product-3.webp" alt="tenis Nike">
                             </div>
                             <div class="card-body">
-                                <h2>Lorem</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <h2>Nike Presto</h2>
+                                <span class="price">$175 USD</span>
                                 <button type="button" class="btn btn-lg btn-block see-more">
                                     <i class="fa fa-eye"></i>
                                     ver más
@@ -241,7 +266,7 @@
                                         <button class="nav-link" id="pills-clothes-tab" data-bs-toggle="pill" data-bs-target="#pills-clothes" type="button" role="tab" aria-controls="pills-clothes" aria-selected="false">Ropa</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-shoes-tab" data-bs-toggle="pill" data-bs-target="#pills-shoes" type="button" role="tab" aria-controls="pills-shoes" aria-selected="false">Zapato</button>
+                                        <button class="nav-link" id="pills-shoes-tab" data-bs-toggle="pill" data-bs-target="#pills-shoes" type="button" role="tab" aria-controls="pills-shoes" aria-selected="false">Calzado</button>
                                     </li>
                                 </ul>
                             </div>
@@ -252,234 +277,226 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab">
-                                                                        
-                                    <div class="row">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab">
+                                                                    
+                                <div class="row">
 
-                                        <div class="col col-sm-12 col-md-4">
-                                            <div class="card">
-                                                <img src="./src/multimedia/images/products/product-13.webp" alt="Consola xbox serie x">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Lorem</h4>
-                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                    <button type="button" class="btn btn-lg see-more">
-                                                        <i class="fa fa-eye"></i>
-                                                        ver más
-                                                    </button>
-                                                    <button type="button" class="btn btn-lg buy">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                        Agregar al carrito
-                                                    </button>
-                                                </div>
+                                    <div class="col col-sm-12 col-md-4">
+                                        <div class="card">
+                                            <img src="./src/multimedia/images/products/product-13.webp" alt="Consola xbox serie x">
+                                            <div class="card-body">
+                                                <h4 class="card-title">xbox serie x</h4>
+                                                <span class="price">$499 USD</span>
+                                                <button type="button" class="btn btn-lg btn-block see-more">
+                                                    <i class="fa fa-eye"></i>
+                                                    ver más
+                                                </button>
+                                                <button type="button" class="btn btn-lg btn-block buy">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                    Agregar al carrito
+                                                </button>
                                             </div>
-                                        </div>
-
-                                        <div class="col col-sm-12 col-md-8">
-
-                                            <div class="row h-100">
-                                                <div class="card mb-3 h-50">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <img src="./src/multimedia/images/products/product-2.webp" alt="consola nintendo switch">
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">Lorem</h4>
-                                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                                <button type="button" class="btn btn-lg see-more">
-                                                                    <i class="fa fa-eye"></i>
-                                                                    ver más
-                                                                </button>
-                                                                <button type="button" class="btn btn-lg buy">
-                                                                    <i class="fa fa-shopping-cart"></i>
-                                                                    Agregar al carrito
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card h-50">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <img src="./src/multimedia/images/products/product-1.webp" alt="Oculus rift">
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">Lorem</h4>
-                                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                                <button type="button" class="btn btn-lg see-more">
-                                                                    <i class="fa fa-eye"></i>
-                                                                    ver más
-                                                                </button>
-                                                                <button type="button" class="btn btn-lg buy">
-                                                                    <i class="fa fa-shopping-cart"></i>
-                                                                    Agregar al carrito
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </div>
 
-                                </div>
+                                    <div class="col col-sm-12 col-md-8">
 
-                                <div class="tab-pane fade" id="pills-clothes" role="tabpanel" aria-labelledby="pills-clothes-tab">
-                                    
-                                    <div class="row">
+                                        <div class="row h-100">
+                                            <div class="card mb-3">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="./src/multimedia/images/products/product-2.webp" alt="consola nintendo switch">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Nintendo switch</h4>
+                                                            <span class="price">$284 USD</span>
+                                                            <button type="button" class="btn btn-lg btn-block see-more">
+                                                                <i class="fa fa-eye"></i>
+                                                                ver más
+                                                            </button>
+                                                            <button type="button" class="btn btn-lg btn-block buy">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                Agregar al carrito
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                        <div class="col col-sm-12 col-md-4">
                                             <div class="card">
-                                                <img src="./src/multimedia/images/products/product-14.webp" alt="Camiseta nike">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Lorem</h4>
-                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                    <button type="button" class="btn btn-lg see-more">
-                                                        <i class="fa fa-eye"></i>
-                                                        ver más
-                                                    </button>
-                                                    <button type="button" class="btn btn-lg buy">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                        Agregar al carrito
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col col-sm-12 col-md-8">
-
-                                            <div class="row h-100">
-                                                <div class="card mb-3 h-50">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <img src="./src/multimedia/images/products/product-15.webp" alt="Camiseta adidas">
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">Lorem</h4>
-                                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                                <button type="button" class="btn btn-lg see-more">
-                                                                    <i class="fa fa-eye"></i>
-                                                                    ver más
-                                                                </button>
-                                                                <button type="button" class="btn btn-lg buy">
-                                                                    <i class="fa fa-shopping-cart"></i>
-                                                                    Agregar al carrito
-                                                                </button>
-                                                            </div>
-                                                        </div>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="./src/multimedia/images/products/product-1.webp" alt="Oculus rift">
                                                     </div>
-                                                </div>
-
-                                                <div class="card h-50">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <img src="./src/multimedia/images/products/product-16.webp" alt="sudadera adidas">
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">Lorem</h4>
-                                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                                <button type="button" class="btn btn-lg see-more">
-                                                                    <i class="fa fa-eye"></i>
-                                                                    ver más
-                                                                </button>
-                                                                <button type="button" class="btn btn-lg buy">
-                                                                    <i class="fa fa-shopping-cart"></i>
-                                                                    Agregar al carrito
-                                                                </button>
-                                                            </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Oculus Rift</h4>
+                                                            <span class="price">$299 USD</span>
+                                                            <button type="button" class="btn btn-lg btn-block see-more">
+                                                                <i class="fa fa-eye"></i>
+                                                                ver más
+                                                            </button>
+                                                            <button type="button" class="btn btn-lg btn-block buy">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                Agregar al carrito
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
-
                                 </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-clothes" role="tabpanel" aria-labelledby="pills-clothes-tab">
                                 
-                                <div class="tab-pane fade" id="pills-shoes" role="tabpanel" aria-labelledby="pills-shoes-tab">
-                                    
-                                    <div class="row">
+                                <div class="row">
 
-                                        <div class="col col-sm-12 col-md-4">
-                                            <div class="card">
-                                                <img src="./src/multimedia/images/products/product-3.webp" alt="Nike Air Zoom Pegasus 38 Shield">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Lorem</h4>
-                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                    <button type="button" class="btn btn-lg see-more">
-                                                        <i class="fa fa-eye"></i>
-                                                        ver más
-                                                    </button>
-                                                    <button type="button" class="btn btn-lg buy">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                        Agregar al carrito
-                                                    </button>
-                                                </div>
+                                    <div class="col col-sm-12 col-md-4">
+                                        <div class="card">
+                                            <img src="./src/multimedia/images/products/product-14.webp" alt="Camiseta nike">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Nike Dri-FIT Legend</h4>
+                                                <span class="price">$20 USD</span>
+                                                <button type="button" class="btn btn-lg btn-block see-more">
+                                                    <i class="fa fa-eye"></i>
+                                                    ver más
+                                                </button>
+                                                <button type="button" class="btn btn-lg btn-block buy">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                    Agregar al carrito
+                                                </button>
                                             </div>
-                                        </div>
-
-                                        <div class="col col-sm-12 col-md-8">
-
-                                            <div class="row h-100">
-                                                <div class="card mb-3 h-50">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <img src="./src/multimedia/images/products/product-12.webp" alt="Nike React Infinity Run Flyknit 2">
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">Lorem</h4>
-                                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                                <button type="button" class="btn btn-lg see-more">
-                                                                    <i class="fa fa-eye"></i>
-                                                                    ver más
-                                                                </button>
-                                                                <button type="button" class="btn btn-lg buy">
-                                                                    <i class="fa fa-shopping-cart"></i>
-                                                                    Agregar al carrito
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card h-50">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <img src="./src/multimedia/images/products/product-11.webp" alt="Nike React Infinity Run FK 2 Be True">
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">Lorem</h4>
-                                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                                                <button type="button" class="btn btn-lg see-more">
-                                                                    <i class="fa fa-eye"></i>
-                                                                    ver más
-                                                                </button>
-                                                                <button type="button" class="btn btn-lg buy">
-                                                                    <i class="fa fa-shopping-cart"></i>
-                                                                    Agregar al carrito
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </div>
 
+                                    <div class="col col-sm-12 col-md-8">
+
+                                        <div class="row h-100">
+                                            <div class="card mb-3">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="./src/multimedia/images/products/product-15.webp" alt="Camiseta adidas">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Adidas Badge of Sport</h4>
+                                                            <span class="price">$20 USD</span>
+                                                            <button type="button" class="btn btn-lg btn-block see-more">
+                                                                <i class="fa fa-eye"></i>
+                                                                ver más
+                                                            </button>
+                                                            <button type="button" class="btn btn-lg btn-block buy">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                Agregar al carrito
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="./src/multimedia/images/products/product-16.webp" alt="sudadera adidas">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Nike Pro Warm</h4>
+                                                            <span class="price">$50 USD</span>
+                                                            <button type="button" class="btn btn-lg btn-block see-more">
+                                                                <i class="fa fa-eye"></i>
+                                                                ver más
+                                                            </button>
+                                                            <button type="button" class="btn btn-lg btn-block buy">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                Agregar al carrito
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>  
-                        </div>
+                            </div>
+                            
+                            <div class="tab-pane fade" id="pills-shoes" role="tabpanel" aria-labelledby="pills-shoes-tab">
+                                
+                                <div class="row">
+
+                                    <div class="col col-sm-12 col-md-4">
+                                        <div class="card">
+                                            <img src="./src/multimedia/images/products/product-3.webp" alt="Nike Air Zoom Pegasus 38 Shield">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Nike Presto</h4>
+                                                <span class="price">$175 USD</span>
+                                                <button type="button" class="btn btn-lg btn-block see-more">
+                                                    <i class="fa fa-eye"></i>
+                                                    ver más
+                                                </button>
+                                                <button type="button" class="btn btn-lg btn-block buy">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                    Agregar al carrito
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-sm-12 col-md-8">
+
+                                        <div class="row h-100">
+                                            <div class="card mb-3">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="./src/multimedia/images/products/product-12.webp" alt="Nike React Infinity Run Flyknit 2">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Nike React Infinity Run Flyknit 2</h4>
+                                                            <span class="price">$150 USD</span>
+                                                            <button type="button" class="btn btn-lg btn-block see-more">
+                                                                <i class="fa fa-eye"></i>
+                                                                ver más
+                                                            </button>
+                                                            <button type="button" class="btn btn-lg btn-block buy">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                Agregar al carrito
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="./src/multimedia/images/products/product-11.webp" alt="Nike React Infinity Run FK 2 Be True">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Nike React Infinity Run FK 2 Be True</h4>
+                                                            <span class="price">$150 USD</span>
+                                                            <button type="button" class="btn btn-lg btn-block see-more">
+                                                                <i class="fa fa-eye"></i>
+                                                                ver más
+                                                            </button>
+                                                            <button type="button" class="btn btn-lg btn-block buy">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                Agregar al carrito
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
                     </div>   
                 </div>
 
@@ -490,8 +507,8 @@
                             <img src="./src/multimedia/images/products/product-4.webp" alt="Beats Studio3 Black Audifonos Cancelación Ruido Bluetooth">
                             <div class="item-data">
                                 <div class="overlay">
-                                    <h2>Lorem</h2>
-                                    <a href="#">Ver más</a>
+                                    <h2>JBL E55BT</h2>
+                                    <a href="./src/pages/product.html">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -499,8 +516,8 @@
                             <img src="./src/multimedia/images/products/product-5.webp" alt="Cámara Sony De 20.1mp Con Zoom Óptico De 8x-dsc-w830">
                             <div class="item-data">
                                 <div class="overlay">
-                                    <h2>Lorem</h2>
-                                    <a href="#">Ver más</a>
+                                    <h2>Cámara WX350</h2>
+                                    <a href="./src/pages/product.html">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -508,8 +525,8 @@
                             <img src="./src/multimedia/images/products/product-7.webp" alt="Sony PlayStation 5">
                             <div class="item-data">
                                 <div class="overlay">
-                                    <h2>Lorem</h2>
-                                    <a href="#">Ver más</a>
+                                    <h2>Play Station 5</h2>
+                                    <a href="./src/pages/product.html">Ver más</a>
                                 </div>
                             </div>
                         </div> 
@@ -517,8 +534,8 @@
                             <img src="./src/multimedia/images/products/product-8.webp" alt="Htc U20 5g 8gb 256gb Dual Sim Duos">
                             <div class="item-data">
                                 <div class="overlay">
-                                    <h2>Lorem</h2>
-                                    <a href="#">Ver más</a>
+                                    <h2>HTC Desire 10</h2>
+                                    <a href="./src/pages/product.html">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -526,8 +543,8 @@
                             <img src="./src/multimedia/images/products/product-10.webp" alt="apple macbook pro">
                             <div class="item-data">
                                 <div class="overlay">
-                                    <h2>Lorem</h2>
-                                    <a href="#">Ver más</a>
+                                    <h2>Apple Macbook Air</h2>
+                                    <a href="./src/pages/product.html">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -535,14 +552,14 @@
                             <img src="./src/multimedia/images/products/product-9.webp" alt="xiaomi redmi band 6">
                             <div class="item-data">
                                 <div class="overlay">
-                                    <h2>Lorem</h2>
-                                    <a href="#">Ver más</a>
+                                    <h2>Xiaomi Mi Band 6</h2>
+                                    <a href="./src/pages/product.html">Ver más</a>
                                 </div>
                             </div>
                         </div>                              
-                    </div>                        
+                    </div>    
                 </div>
-
+            </div>
         </section>   
         
         <section class="testimonial">
@@ -569,7 +586,7 @@
                                 <img src="./src/multimedia/images/persona.webp" alt="Opinion de usuiario">
                                 <div class="test testimonial-info">
                                     <h3>Susana Oria</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum soluta exercitationem, magni error perspiciatis placeat laborum reprehenderit perferendis eligendi obcaecati rerum amet neque ratione in! Molestias aperiam aliquid culpa alias.</p>
+                                    <p>La atención al cliente y la respuesta inmediata es excelente. Satisfacción total en las compras, Seguridad en precios y logística.</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -583,7 +600,7 @@
                                 <img src="./src/multimedia/images/persona-1.webp" alt="Opinion de usuiario">
                                 <div class="test testimonial-info">
                                     <h3>Alan Brito</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magnam impedit voluptatibus, laborum vel porro quod doloremque numquam voluptas quam ad accusantium minus consequatur rem nulla neque repellendus quae id!</p>
+                                    <p>Excelente servicio, precios elevados muycompetentes. La calidad de los servicios allí ofrecidos es incomparable, y la calidad de los trabajadores te termina de convencer para comprar con ellos.</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -597,7 +614,7 @@
                                 <img src="./src/multimedia/images/persona-2.webp" alt="Opinion de usuiario" >
                                 <div class="test testimonial-info">
                                     <h3>Lola Mento</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci, dolorem unde, odit sunt perspiciatis dolorum non, deleniti vero eaque repellat illum magni qui. Consequuntur debitis eum minus dolorem! Impedit?</p>
+                                    <p>Una excelente tienda, precios muy buenos, la atención de sus asesores es excelente, siempre dispuestos a responder tus dudas, sugerirte con base a tu presupuesto las mejores opciones, en fin una muy grata experiencia. Compré varias cositas y todo llegó sin problemas, bien empacados, llegó antes de lo esperado.</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -660,7 +677,7 @@
         </section>
 
         <section class="social-media-footer">
-            <p>&copy; Company Name, todos los derechos reservados</p>
+            <p>&copy; Ecommerce, todos los derechos reservados</p>
             <nav>
                 <ul>
                     <li>

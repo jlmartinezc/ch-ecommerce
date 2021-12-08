@@ -22,7 +22,7 @@ $colors: #fff, #f5f5f5, #dfe5e9, #0000;
             animation: animation 1000ms;
             box-shadow: 0 1px 4px 0 nth($colors, 4);
             animation-timing-function: ease-in-out;
-            @include flex-container(row, space-between, unset);
+            @include flex-container(row, space-between, center);
 
             .prodcut-image {
                 width: 15rem;
@@ -47,6 +47,7 @@ $colors: #fff, #f5f5f5, #dfe5e9, #0000;
                     .price-container {
 
                         span {
+                            font-size: 1.25em;
                             color: $fifth-color;
                         }
                     }
@@ -108,7 +109,7 @@ $colors: #fff, #f5f5f5, #dfe5e9, #0000;
     }    
 }
 
-@media screen and (max-width: 680px) { 
+@media screen and (max-width: 780px) { 
     .products {
 
         .products-wrapper {
@@ -120,6 +121,10 @@ $colors: #fff, #f5f5f5, #dfe5e9, #0000;
                 .prodcut-image {
                     width: 15rem;
                     height: 15rem;
+                }
+
+                .product-interaction {
+                    margin: 0;
                 }
             }
         }

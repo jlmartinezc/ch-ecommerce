@@ -265,5 +265,13 @@
     "y18n": "^4.0.3",
     "yallist": "^4.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlmartinezc/ecommerce-coderhouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlmartinezc/ecommerce-coderhouse/issues"
+  },
+  "homepage": "https://github.com/jlmartinezc/ecommerce-coderhouse#readme",
   "description": ""
 }
